@@ -1,6 +1,6 @@
 
 public class FizzBuzz {
-	public int[] getNumers() {
+	public int[] getNumbers() {
 		int[] numbers = new int[100];
 		for (int tick = 0; tick < numbers.length; tick++) {
 			numbers[tick] = tick + 1;
