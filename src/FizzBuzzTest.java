@@ -9,5 +9,11 @@ public class FizzBuzzTest {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals(100, fb.getNumers().length);
 	}
+	
+	@Test
+	public void mupltiplesOfThree() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("fizz", fb.fizzbuzz(3));
+	}
 
 }
