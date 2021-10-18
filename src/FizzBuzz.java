@@ -1,7 +1,11 @@
 
 public class FizzBuzz {
 	public int[] getNumers() {
-		return new int[100];
+		int[] numbers = new int[100];
+		for (int tick = 0; tick < numbers.length; tick++) {
+			numbers[tick] = tick + 1;
+		}
+		return numbers;
 	}
 	
 	public String fizzbuzz(int value) {
