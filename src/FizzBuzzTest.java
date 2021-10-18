@@ -30,6 +30,8 @@ public class FizzBuzzTest {
 	public void mupltiplesOfThreeAndFive() {
 		FizzBuzz fb = new FizzBuzz();
 		assertEquals("fizzbuzz", fb.fizzbuzz(30));
+		assertEquals("fizzbuzz", fb.fizzbuzz(60));
+		assertEquals("fizzbuzz", fb.fizzbuzz(90));
 	}
 
 
