@@ -17,5 +17,13 @@ public class FizzBuzzTest {
 		assertEquals("fizz", fb.fizzbuzz(27));
 		assertEquals("fizz", fb.fizzbuzz(93));
 	}
+	
+	@Test
+	public void mupltiplesOfFive() {
+		FizzBuzz fb = new FizzBuzz();
+		assertEquals("buzz", fb.fizzbuzz(5));
+		assertEquals("buzz", fb.fizzbuzz(25));
+		assertEquals("buzz", fb.fizzbuzz(85));
+	}
 
 }
