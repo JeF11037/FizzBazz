@@ -11,4 +11,13 @@ public class FizzBuzz {
 		return numbers;
 	}
 	
+	public String fizzbuzz(int value) {
+		
+		if (value % 3 == 0) {
+			return "fizz";
+		} else {
+			return Integer.toString(value);
+		}
+		
+	}
 }

@@ -17,5 +17,5 @@ public class FizzBuzzTest {
 		assertEquals("fizz", fb.fizzbuzz(27));
 		assertEquals("fizz", fb.fizzbuzz(93));
 	}
-	
+
 }
